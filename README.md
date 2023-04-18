@@ -16,3 +16,5 @@ c. image
 d. price
 e. category
 f. rating / count
+
+CLONE this repository and build the project in XCode.
