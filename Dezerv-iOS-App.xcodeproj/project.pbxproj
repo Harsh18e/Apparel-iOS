@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F598F16629EDBEA900A918F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F598F16529EDBEA900A918F4 /* AppDelegate.swift */; };
+		F598F16829EDBEA900A918F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F598F16729EDBEA900A918F4 /* SceneDelegate.swift */; };
+		F598F16A29EDBEA900A918F4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F598F16929EDBEA900A918F4 /* MainViewController.swift */; };
+		F598F16D29EDBEA900A918F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F598F16B29EDBEA900A918F4 /* Main.storyboard */; };
+		F598F16F29EDBEAB00A918F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F598F16E29EDBEAB00A918F4 /* Assets.xcassets */; };
+		F598F17229EDBEAB00A918F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F598F17029EDBEAB00A918F4 /* LaunchScreen.storyboard */; };
+		F598F17D29EDC01800A918F4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F598F17C29EDC01800A918F4 /* Constants.swift */; };
+		F598F17F29EDC03E00A918F4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F598F17E29EDC03E00A918F4 /* Extensions.swift */; };
+		F598F18129EDC06700A918F4 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F598F18029EDC06700A918F4 /* Colors.swift */; };
+		F598F18429EDC25100A918F4 /* Network Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F598F18329EDC25100A918F4 /* Network Manager.swift */; };
+		F598F18729EDC27200A918F4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F598F18629EDC27200A918F4 /* Kingfisher */; };
+		F598F18A29EDC29B00A918F4 /* Error Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F598F18929EDC29B00A918F4 /* Error Model.swift */; };
+		F598F18D29EDC80000A918F4 /* Apparels Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F598F18C29EDC80000A918F4 /* Apparels Model.swift */; };
+		F598F19029EDCA4600A918F4 /* MasterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F598F18F29EDCA4600A918F4 /* MasterViewModel.swift */; };
+		F598F19529EDEE3D00A918F4 /* ApparelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F598F19329EDEE3D00A918F4 /* ApparelTableViewCell.swift */; };
+		F598F19629EDEE3D00A918F4 /* ApparelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F598F19429EDEE3D00A918F4 /* ApparelTableViewCell.xib */; };
+		F598F19829EEC9C300A918F4 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F598F19729EEC9C300A918F4 /* DetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F598F16229EDBEA900A918F4 /* Dezerv-iOS-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dezerv-iOS-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F598F16529EDBEA900A918F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F598F16729EDBEA900A918F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F598F16929EDBEA900A918F4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F598F16C29EDBEA900A918F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F598F16E29EDBEAB00A918F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F598F17129EDBEAB00A918F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F598F17329EDBEAB00A918F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F598F17C29EDC01800A918F4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F598F17E29EDC03E00A918F4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F598F18029EDC06700A918F4 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F598F18329EDC25100A918F4 /* Network Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Manager.swift"; sourceTree = "<group>"; };
+		F598F18929EDC29B00A918F4 /* Error Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error Model.swift"; sourceTree = "<group>"; };
+		F598F18C29EDC80000A918F4 /* Apparels Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Apparels Model.swift"; sourceTree = "<group>"; };
+		F598F18F29EDCA4600A918F4 /* MasterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewModel.swift; sourceTree = "<group>"; };
+		F598F19329EDEE3D00A918F4 /* ApparelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApparelTableViewCell.swift; sourceTree = "<group>"; };
+		F598F19429EDEE3D00A918F4 /* ApparelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ApparelTableViewCell.xib; sourceTree = "<group>"; };
+		F598F19729EEC9C300A918F4 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F598F15F29EDBEA900A918F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F598F18729EDC27200A918F4 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F598F15929EDBEA900A918F4 = {
+			isa = PBXGroup;
+			children = (
+				F598F16429EDBEA900A918F4 /* Dezerv-iOS-App */,
+				F598F16329EDBEA900A918F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F598F16329EDBEA900A918F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F598F16229EDBEA900A918F4 /* Dezerv-iOS-App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F598F16429EDBEA900A918F4 /* Dezerv-iOS-App */ = {
+			isa = PBXGroup;
+			children = (
+				F598F17329EDBEAB00A918F4 /* Info.plist */,
+				F598F17929EDBF8300A918F4 /* Supporting Files */,
+				F598F18829EDC28300A918F4 /* Models */,
+				F598F18E29EDC9D500A918F4 /* View Models */,
+				F598F18B29EDC36400A918F4 /* View Controllers */,
+				F598F19229EDEE0700A918F4 /* Cells */,
+				F598F17A29EDBFE100A918F4 /* Storyboards */,
+				F598F18229EDC21400A918F4 /* Utility */,
+				F598F17B29EDBFF800A918F4 /* Helpers */,
+			);
+			path = "Dezerv-iOS-App";
+			sourceTree = "<group>";
+		};
+		F598F17929EDBF8300A918F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F598F16529EDBEA900A918F4 /* AppDelegate.swift */,
+				F598F16729EDBEA900A918F4 /* SceneDelegate.swift */,
+				F598F16E29EDBEAB00A918F4 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F598F17A29EDBFE100A918F4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F598F16B29EDBEA900A918F4 /* Main.storyboard */,
+				F598F17029EDBEAB00A918F4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F598F17B29EDBFF800A918F4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F598F17C29EDC01800A918F4 /* Constants.swift */,
+				F598F17E29EDC03E00A918F4 /* Extensions.swift */,
+				F598F18029EDC06700A918F4 /* Colors.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F598F18229EDC21400A918F4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F598F18329EDC25100A918F4 /* Network Manager.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		F598F18829EDC28300A918F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F598F18929EDC29B00A918F4 /* Error Model.swift */,
+				F598F18C29EDC80000A918F4 /* Apparels Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F598F18B29EDC36400A918F4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F598F16929EDBEA900A918F4 /* MainViewController.swift */,
+				F598F19729EEC9C300A918F4 /* DetailsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F598F18E29EDC9D500A918F4 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				F598F18F29EDCA4600A918F4 /* MasterViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		F598F19229EDEE0700A918F4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F598F19329EDEE3D00A918F4 /* ApparelTableViewCell.swift */,
+				F598F19429EDEE3D00A918F4 /* ApparelTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F598F16129EDBEA900A918F4 /* Dezerv-iOS-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F598F17629EDBEAB00A918F4 /* Build configuration list for PBXNativeTarget "Dezerv-iOS-App" */;
+			buildPhases = (
+				F598F15E29EDBEA900A918F4 /* Sources */,
+				F598F15F29EDBEA900A918F4 /* Frameworks */,
+				F598F16029EDBEA900A918F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dezerv-iOS-App";
+			packageProductDependencies = (
+				F598F18629EDC27200A918F4 /* Kingfisher */,
+			);
+			productName = "Dezerv-iOS-App";
+			productReference = F598F16229EDBEA900A918F4 /* Dezerv-iOS-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F598F15A29EDBEA900A918F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F598F16129EDBEA900A918F4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F598F15D29EDBEA900A918F4 /* Build configuration list for PBXProject "Dezerv-iOS-App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F598F15929EDBEA900A918F4;
+			packageReferences = (
+				F598F18529EDC27200A918F4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = F598F16329EDBEA900A918F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F598F16129EDBEA900A918F4 /* Dezerv-iOS-App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F598F16029EDBEA900A918F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F598F17229EDBEAB00A918F4 /* LaunchScreen.storyboard in Resources */,
+				F598F19629EDEE3D00A918F4 /* ApparelTableViewCell.xib in Resources */,
+				F598F16F29EDBEAB00A918F4 /* Assets.xcassets in Resources */,
+				F598F16D29EDBEA900A918F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F598F15E29EDBEA900A918F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F598F19029EDCA4600A918F4 /* MasterViewModel.swift in Sources */,
+				F598F18429EDC25100A918F4 /* Network Manager.swift in Sources */,
+				F598F17F29EDC03E00A918F4 /* Extensions.swift in Sources */,
+				F598F18129EDC06700A918F4 /* Colors.swift in Sources */,
+				F598F16A29EDBEA900A918F4 /* MainViewController.swift in Sources */,
+				F598F16629EDBEA900A918F4 /* AppDelegate.swift in Sources */,
+				F598F19529EDEE3D00A918F4 /* ApparelTableViewCell.swift in Sources */,
+				F598F18D29EDC80000A918F4 /* Apparels Model.swift in Sources */,
+				F598F16829EDBEA900A918F4 /* SceneDelegate.swift in Sources */,
+				F598F17D29EDC01800A918F4 /* Constants.swift in Sources */,
+				F598F18A29EDC29B00A918F4 /* Error Model.swift in Sources */,
+				F598F19829EEC9C300A918F4 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F598F16B29EDBEA900A918F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F598F16C29EDBEA900A918F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F598F17029EDBEAB00A918F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F598F17129EDBEAB00A918F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F598F17429EDBEAB00A918F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F598F17529EDBEAB00A918F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F598F17729EDBEAB00A918F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AUDX42SVPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dezerv-iOS-App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Harsh12.Dezerv-iOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F598F17829EDBEAB00A918F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AUDX42SVPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dezerv-iOS-App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Harsh12.Dezerv-iOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F598F15D29EDBEA900A918F4 /* Build configuration list for PBXProject "Dezerv-iOS-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F598F17429EDBEAB00A918F4 /* Debug */,
+				F598F17529EDBEAB00A918F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F598F17629EDBEAB00A918F4 /* Build configuration list for PBXNativeTarget "Dezerv-iOS-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F598F17729EDBEAB00A918F4 /* Debug */,
+				F598F17829EDBEAB00A918F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F598F18529EDC27200A918F4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F598F18629EDC27200A918F4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F598F18529EDC27200A918F4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F598F15A29EDBEA900A918F4 /* Project object */;
+}
