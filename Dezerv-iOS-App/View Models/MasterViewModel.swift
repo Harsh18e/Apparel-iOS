@@ -109,6 +109,6 @@ extension MasterViewModel: ApparelCellViewModelDelegate {
     }
     
     func getApparelCount() -> Int {
-        return apparelList?.count ?? 1
+        return apparelList?.count ?? 0
     }
 }
