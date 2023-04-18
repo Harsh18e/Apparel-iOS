@@ -1,6 +1,7 @@
 # Apparel-iOS
 
 Created a table view displaying the following information in each card
+
 a. title
 b. price
 c. image
